@@ -1,0 +1,34 @@
+body{
+    background-image: url("assets/images/FizzBuzz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar
+{
+    background-color: brown;    
+}
+#content
+{
+    text-align: center;
+    color: brown;
+}
+#displayValue
+{
+    border: thick;
+    border-color: darkred;
+    border-style: solid;
+    height:200px;
+    width: 200px;  
+    margin: auto;
+    width: 50%;
+    font-size: 48px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+#placeToGetValue
+{
+    margin: 5%;
+    color: brown;
+    text-align: center;
+}

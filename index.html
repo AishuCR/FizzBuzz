@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Bootstrap css link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- custom stylesheet -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Linking js file -->
+        <script src="assets/javascript/index.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light">
+        <span class="navbar-brand mb-0 h1 text-light">Fizzzzzz Buzzzzzz   FizzzzBuzzz</span>
+    </nav>
+    <div id="Instructions" class="container">
+        <h1>Instructions:</h1>
+        <h4>Welcome to FizzBuzz! This game checks whether a number is a divisible of 3 or 5 or both 3 and 5.
+                If the number is divisible by 3, then the output will display Fizz. If the number is a divisible of 5 then the output will be Buzz. 
+                If the number is a multiple of both 3 and 5 then the output will be FizzBuzz.
+        </h4>
+    </div>
+    <div id="placeToGetValue">
+          <h2>Enter the number: <input type="number" id="myNumber" value=""></h2>
+          <button onclick="checkFizzBuzz()">Enter</button>
+    </div>
+    <div id="displayValue">
+    </div>
+
+</body>
+
+</html>
